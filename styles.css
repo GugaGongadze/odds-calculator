@@ -8,6 +8,10 @@ input {
 body {
   width: 100vw;
   height: 100vh;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 div {
@@ -17,6 +21,11 @@ div {
   align-items: center;
   height: 100%;
   font-size: 2em;
+  position: relative;
+}
+
+span {
+  font-size: 1em;
 }
 
 button {
@@ -25,4 +34,9 @@ button {
   display: block;
   border-radius: 5px;
   font-size: 0.5em;
+}
+
+.warning {
+  color: rebeccapurple;
+  margin: 1em;
 }
