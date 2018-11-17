@@ -2,15 +2,26 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Hello World!</title>
+    <title>კოეფიციენტი</title>
+    <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <!-- All of the Node.js APIs are available in this renderer process. -->
-    We are using Node.js <script>document.write(process.versions.node)</script>,
-    Chromium <script>document.write(process.versions.chrome)</script>,
-    and Electron <script>document.write(process.versions.electron)</script>.
-
+    <div>
+      <label for="coef1">კოეფიციენტი I</label>
+      <input class="coef1" name="coef1" type="text">
+      
+      <label for="coef2">კოეფიციენტი II</label>
+      <input class="coef2" name="coef2" type="text">
+      
+      <label for="bet1">ფსონი I ($)</label>
+      <input class="bet1" name="bet1" type="text">
+  
+      <button class="calculate" onclick="calculateBet2()">გამოთვალე</button>
+  
+      <div class="bet2usd"></div>
+      <div class="bet2gel"></div>
+    </div>
+    <script src="./script.js"></script>
     <script>
       // You can also require other files to run in this process
       require('./renderer.js')

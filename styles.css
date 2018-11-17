@@ -1,0 +1,28 @@
+input {
+  display: block;
+  margin: 1em;
+  padding: 0.5em;
+  font-size: 0.5em;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 2em;
+}
+
+button {
+  width: 150px;
+  height: 150px;
+  display: block;
+  border-radius: 5px;
+  font-size: 0.5em;
+}
