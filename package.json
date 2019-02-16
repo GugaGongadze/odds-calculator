@@ -4,7 +4,9 @@
   "description": "A minimal Electron application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder -w"
   },
   "repository": {
     "type": "git",
@@ -20,14 +22,14 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^3.0.4"
+    "electron": "^3.0.4",
+    "electron-builder": "^20.38.5"
   },
   "bugs": {
     "url": "https://github.com/electron/electron-quick-start/issues"
   },
   "homepage": "https://github.com/electron/electron-quick-start#readme",
   "dependencies": {
-    "electron-builder": "^20.36.2",
     "electron-packager": "^12.2.0"
   }
 }
