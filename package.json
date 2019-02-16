@@ -26,5 +26,8 @@
     "url": "https://github.com/electron/electron-quick-start/issues"
   },
   "homepage": "https://github.com/electron/electron-quick-start#readme",
-  "dependencies": {}
+  "dependencies": {
+    "electron-builder": "^20.36.2",
+    "electron-packager": "^12.2.0"
+  }
 }
